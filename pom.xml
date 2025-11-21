@@ -31,6 +31,14 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+        <!-- DGS Framework -->
+        <dependency>
+            <groupId>com.netflix.graphql.dgs</groupId>
+            <artifactId>graphql-dgs-spring-boot-starter</artifactId>
+            <version>5.6.0</version>
+        </dependency>
+
+
         <!-- Spring GraphQL -->
         <dependency>
             <groupId>org.springframework.boot</groupId>

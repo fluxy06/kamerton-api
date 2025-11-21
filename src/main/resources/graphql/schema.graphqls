@@ -1,0 +1,20 @@
+type UserRequest {
+    requestId: ID!
+    userName: String!
+    phoneNumber: String!
+    email: String!
+    requestMessage: String!
+}
+
+type Mutation {
+    createUserRequest(
+        userName: String!
+        phoneNumber: String!
+        email: String!
+        requestMessage: String!
+    ): UserRequest
+}
+
+type Query {
+    allUserRequests: [UserRequest]
+}
